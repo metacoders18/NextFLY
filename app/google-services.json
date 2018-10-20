@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "862594031106",
+    "firebase_url": "https://nextfly-568df.firebaseio.com",
+    "project_id": "nextfly-568df",
+    "storage_bucket": "nextfly-568df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862594031106:android:71fae154e11ddcf3",
+        "android_client_info": {
+          "package_name": "com.metacoders.nextfly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862594031106-64md90p8t0i8b49d0eutcgg01tg4k2ms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.metacoders.nextfly",
+            "certificate_hash": "c5b0657a328a3e1f6b9cbe04770dfe46eca81bfc"
+          }
+        },
+        {
+          "client_id": "862594031106-oiln65cr1gb4uf6h08je2r9f4blj033m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXrzrMqL3dRc7QwaTPjUdD-h98xD9tH9k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862594031106-oiln65cr1gb4uf6h08je2r9f4blj033m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

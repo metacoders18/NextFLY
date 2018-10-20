@@ -106,6 +106,7 @@
                     android:textStyle="italic"
                     android:layout_marginLeft="4dp"
                     android:textSize="14dp"
+                    android:id="@+id/load_more"
                     android:layout_weight="1"
                     android:textAlignment="viewEnd"
                     android:textColor="#fff"/>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@drawable/common_google_signin_btn_icon_dark"
+                android:id="@+id/rImageView"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/rTitleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Walton Group"
+
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textSize="22sp"/>
+            <TextView
+                android:id="@+id/rDescriptionTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This will be the description of the post"
+                android:textSize="20sp"
+                android:ellipsize="marquee"
+
+                android:singleLine="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</android.support.v7.widget.CardView>
