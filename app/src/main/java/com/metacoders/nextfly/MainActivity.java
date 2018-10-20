@@ -1,5 +1,6 @@
 package com.metacoders.nextfly;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -47,6 +48,14 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.listView);
         heroList = new ArrayList<>();
     loadHeroList();
+    TextView load_mor = (TextView)findViewById(R.id.load_more);
+    load_mor.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent o = new Intent(getApplicationContext() , PostsListActivity.class);
+            startActivity(o);
+        }
+    });
 
 
 
